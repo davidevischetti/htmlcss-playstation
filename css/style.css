@@ -54,6 +54,7 @@ p{
 }
 
 #header .fa-search {
+    color: #363636;
     font-size: 20px;
     margin-top: 10px;
     margin-right: 10px;
@@ -91,8 +92,21 @@ main {
     background-color: #cd3d0f;
 }
 
+/* STILE PREVIEWS */
+#previews img {
+    max-width: 100%;
+    margin: 30px 0;
+    border-radius: 20px;
+    padding: 3px;
+}
 
 
+/* STILE EFFETTI HOVER */
+#previews img:hover {
+    transform: translate(-8%, -12%);
+    max-width: 120%;
+    border: 2px solid #0070d1;
+}
 
 
 /* REGOLE PER RESPONSIVE */
@@ -110,7 +124,7 @@ main {
         display: none;
     }
 
-    .button {
+    #header .button {
         padding-left: 80px;
         padding-right: 80px;
         margin: 20px 0;
