@@ -278,6 +278,23 @@ main {
     color: #363636;
 }
 
+/* STILE LINK SOCIAL */
+#social {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#social h3 {
+    color: #000;
+    text-align: center;
+}
+
+#social img {
+    max-width: 40%;
+    margin: 20px 10px;
+}
+
+
 /* STILE EFFETTI HOVER */
 
 #previews img:hover {
@@ -294,6 +311,7 @@ main {
     opacity: 1;
     transition: all 0.5s;
 }
+
 
 
 
@@ -337,3 +355,9 @@ main {
     }
 }
 
+@media screen and (min-width:576px) {
+
+    #social img {
+        max-width: 100px;
+    }
+}
