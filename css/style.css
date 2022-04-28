@@ -41,6 +41,7 @@ span {
     border-radius: 20px;
     border: none;
     padding: 10px 15px;
+    font-weight: 600;
 }
 
 
@@ -229,12 +230,20 @@ main {
 }
 
 
-/* STILE BANNER */
+/* STILE BANNER PS-PLUS E BANNER PS-NOW */
 
 .banner {
-    background-color: #bebcbb;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.banner.banner-ps-plus {
+    background-color: #bebcbb;
+}
+
+.banner.banner-ps-now {
+    background-color: #161c3b;
 }
 
 .banner .banner-logo {
@@ -247,15 +256,26 @@ main {
 }
 
 .banner p {
-    color: #2b2b2b;
     margin: 30px 0;
     font-size: 16px;
 }
 
-.banner .button {
+.banner.banner-ps-plus p {
+    color: #2b2b2b;
+}
+
+.banner.banner-ps-now p {
+    color: #fff;
+}
+
+.banner.banner-ps-plus .button {
     background-color: #d9d9db;
     color: #0070d1;
-    font-weight: 600;
+}
+
+.banner.banner-ps-now .button {
+    background-color: #fff;
+    color: #363636;
 }
 
 /* STILE EFFETTI HOVER */
