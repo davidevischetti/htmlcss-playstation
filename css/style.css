@@ -20,6 +20,10 @@ p{
     font-size: 14px;
 }
 
+span {
+    font-size: 20px;
+}
+
 .button {
     color: #fff;
     border-radius: 20px;
@@ -49,8 +53,9 @@ p{
 #header .lg-display-none {
     background-image: url(../img/lens.svg);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 30px;
     background-position-y: center;
+    padding-left: 30px;
 }
 
 #header .fa-search {
@@ -65,6 +70,7 @@ p{
     margin: 0 20px;
 }
 
+/* PADDING MAIN PER HEADER IN FIXED */
 main {
     padding-top: 100px;
 }
@@ -100,13 +106,77 @@ main {
     padding: 3px;
 }
 
+/* STILE ECCO PS5 */
+#ps-5 .text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#ps-5 .text-margin {
+    margin-top: 200px;
+}
+
+#ps-5 .text a {
+    text-decoration: none;
+    color: #0070d1;
+}
+
+#ps-5 .text h2 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#ps-5 .text span {
+    color: #6a6a6a;
+}
+
+#ps-5 .text .button {
+    background-color: #0070d1;
+    margin-top: 30px;
+}
+
+#ps-5 img {
+    max-width: 100%;
+}
+
+/* STILE LISTA PRODOTI */
+#ps-5 .item {
+    text-align: center;
+    min-height: 220px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+
+#ps-5 .item img {
+    max-width: 75%;
+}
+
+#ps-5 .item span {
+    font-size: 18px;
+}
+
+#ps-5 .fa-trademark {
+    color: #6a6a6a;
+    font-size: 10px;
+    transform: translate(0, -50%);
+} 
 
 /* STILE EFFETTI HOVER */
 #previews img:hover {
     transform: translate(-8%, -12%);
     max-width: 120%;
     border: 2px solid #0070d1;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all 0.5s;
 }
+
+#ps-5 .item:hover {
+    border-bottom: 3px solid #0070d1;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
 
 
 /* REGOLE PER RESPONSIVE */
@@ -115,7 +185,7 @@ main {
     #header .lg-display-none {
         display: none;
     }
-
+    
 }
 
 @media screen and (max-width:992px){
