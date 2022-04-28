@@ -145,7 +145,7 @@ main {
 }
 
 
-/* STILE ECCO PS5 E ESPLORA PS4 */
+/* STILE ECCO PS5, ESPLORA PS4 E SCONTI STORE */
 
 .ps-info .text-center {
     text-align: center;
@@ -175,6 +175,7 @@ main {
 
 .ps-info img {
     max-width: 100%;
+    margin-bottom: 30PX;
 }
 
 
@@ -190,6 +191,7 @@ main {
 
 .ps-info .item img {
     max-width: 100%;
+    margin-bottom: 10PX;
 }
 
 .ps-info .item span {
