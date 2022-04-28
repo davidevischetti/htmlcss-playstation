@@ -138,14 +138,18 @@ main {
 /* STILE LISTA PRODOTI */
 #ps-5 .item {
     text-align: center;
-    min-height: 200px;
+    min-height: 160px;
     margin-bottom: 30px;
     margin-top: 20px;
     opacity: 0.6;
 }
 
 #ps-5 .item img {
-    max-width: 70%;
+    max-width: 50%;
+}
+
+#ps-5 .item span {
+    display: block;
 }
 
 #ps-5 .fa-trademark {
@@ -198,10 +202,6 @@ main {
 
 @media screen and (max-width:768px){
 
-    #ps-5 .item {
-        min-height: 160px;
-    }
-
     #ps-5 .item img {
         max-width: 100%;
     }
@@ -210,4 +210,5 @@ main {
         display: none;
     }
     
+
 }
