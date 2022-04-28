@@ -294,6 +294,57 @@ main {
     margin: 20px 10px;
 }
 
+/* STILE FOOTER */
+#footer {
+    background-color: #00439c;
+    padding: 50px 0;
+}
+
+#footer .ps-logo {
+    height: 80px;
+}
+
+#footer .region {
+    height: 20px;
+}
+
+#footer .sie-logo {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#footer span {
+    color: #fff;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 40px 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer ul li {
+    margin-bottom: 5px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
+#footer p a {
+    color: #fff;
+}
+
+
 
 /* STILE EFFETTI HOVER */
 
