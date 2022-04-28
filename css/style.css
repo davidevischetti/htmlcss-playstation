@@ -1,4 +1,5 @@
 /* STILE GENERALE E TESTI*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -41,7 +42,10 @@ span {
     border: none;
     padding: 10px 15px;
 }
+
+
 /* STILE HEADER */
+
 #header {
     height: 100px;
     width: 100%;
@@ -81,12 +85,16 @@ span {
     margin: 0 20px;
 }
 
+
 /* PADDING MAIN PER HEADER IN FIXED */
+
 main {
     padding-top: 100px;
 }
 
+
 /* STILE HERO E HERO 2*/
+
 .hero {
     width: 100%;
     height: 600px;
@@ -123,7 +131,9 @@ main {
     background-color: #cd3d0f;
 }
 
+
 /* STILE PREVIEWS */
+
 #previews img {
     max-width: 100%;
     margin: 30px 0;
@@ -131,38 +141,43 @@ main {
     padding: 3px;
 }
 
-/* STILE ECCO PS5 */
-#ps-5 .text-center {
+
+/* STILE ECCO PS5 E ESPLORA PS4 */
+
+.ps-info .text-center {
     text-align: center;
     margin-top: 50px;
 }
 
-#ps-5 .text a {
+.ps-info .text a {
     text-decoration: none;
     color: #0070d1;
 }
 
-#ps-5 .text h2 {
+.ps-info .text h2 {
     color: #000;
     margin-bottom: 30px;
 }
 
-#ps-5 .text div {
+.ps-info .text div {
     color: #6a6a6a;
     font-size: 20px;
     margin-bottom: 30px;
 }
 
-#ps-5 .text .button {
+.ps-info .text .button {
     background-color: #0070d1;
+    margin-bottom: 50px;
 }
 
-#ps-5 img {
+.ps-info img {
     max-width: 100%;
 }
 
+
 /* STILE LISTA PRODOTI */
-#ps-5 .item {
+
+.ps-info .item {
     text-align: center;
     min-height: 160px;
     margin-bottom: 30px;
@@ -170,21 +185,28 @@ main {
     opacity: 0.6;
 }
 
-#ps-5 .item img {
+.ps-info .item img {
     max-width: 50%;
 }
 
-#ps-5 .item span {
+.ps-info .item span {
     display: block;
 }
 
-#ps-5 .fa-trademark {
+.ps-info .fa-trademark {
     color: #6a6a6a;
     font-size: 10px;
     transform: translate(0, -50%);
 } 
 
+.ps-info .fa-registered {
+    font-size: 15px;
+    transform: translate(0, -100%);
+}
+
+
 /* STILE NUOVE USCITE */
+
 #news {
     background-color: #1f1f1f;
     padding-bottom: 50px;
@@ -201,7 +223,9 @@ main {
     color: #fff;
 }
 
+
 /* STILE EFFETTI HOVER */
+
 #previews img:hover {
     transform: translate(-8%, -12%);
     max-width: 120%;
@@ -211,7 +235,7 @@ main {
     transition: all 0.5s;
 }
 
-#ps-5 .item:hover {
+.ps-info .item:hover {
     border-bottom: 3px solid #0070d1;
     opacity: 1;
     transition: all 0.5s;
@@ -245,11 +269,11 @@ main {
 
 @media screen and (max-width:768px){
 
-    #ps-5 .item img {
+    .ps-info .item img {
         max-width: 100%;
     }
 
-    #ps-5 .item span {
+    .ps-info .item span {
         display: none;
     }
     
