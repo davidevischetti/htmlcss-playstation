@@ -78,11 +78,14 @@ span {
     font-size: 20px;
     margin-top: 10px;
     margin-right: 10px;
+    display: none;
 }
 
 #header .button {
     background-color: #363636;
-    margin: 0 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 20px 0;
 }
 
 
@@ -186,11 +189,11 @@ main {
 }
 
 .ps-info .item img {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .ps-info .item span {
-    display: block;
+    display: none;
 }
 
 .ps-info .fa-trademark {
@@ -224,6 +227,35 @@ main {
 }
 
 
+/* STILE BANNER */
+
+.banner {
+    background-color: #bebcbb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner .banner-logo {
+    max-width: 60%;
+}
+
+.banner-bg {
+    max-width: 100%;
+    display: none;
+}
+
+.banner p {
+    color: #2b2b2b;
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.banner .button {
+    background-color: #d9d9db;
+    color: #0070d1;
+    font-weight: 600;
+}
+
 /* STILE EFFETTI HOVER */
 
 #previews img:hover {
@@ -244,38 +276,42 @@ main {
 
 
 /* REGOLE PER RESPONSIVE */
+
+@media screen and (min-width:768px){
+
+    .ps-info .item img {
+        max-width: 50%;
+    }
+
+    .ps-info .item span {
+        display: block;
+    }
+
+    .banner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .banner-bg {
+        display: inline-block;
+    }
+}
+
 @media screen and (min-width:992px){
 
     #header .lg-display-none {
         display: none;
     }
-    
-}
-
-@media screen and (max-width:992px){
 
     #header .fa-search {
-        display: none;
-    }
-
-    #header .button {
-        padding-left: 80px;
-        padding-right: 80px;
-        margin: 20px 0;
-        
-    }
-
-}
-
-@media screen and (max-width:768px){
-
-    .ps-info .item img {
-        max-width: 100%;
-    }
-
-    .ps-info .item span {
-        display: none;
+        display: inline-block;
     }
     
-
+    #header .button {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 20px;
+        
+    }
 }
+
