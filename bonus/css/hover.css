@@ -1,0 +1,95 @@
+
+/* STILE EFFETTI HOVER */
+
+#previews img:hover {
+    transform: translate(-8%, -12%);
+    max-width: 120%;
+    border: 2px solid #0070d1;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.ps-info .item:hover {
+    border-bottom: 3px solid #0070d1;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    box-shadow: 4px 12px 12px -4px rgba(0, 0, 0, 0.5);
+    transform: translate(0, -6%);
+}
+
+.button.light:hover {
+    box-shadow: 4px 12px 12px -4px rgba(200, 200, 200, 0.5);
+}
+
+
+/* SETTAGGI AIMAZIONI */
+
+.hero.hero-ret {
+    animation: opacity 2.5s linear;
+}
+
+.hero-ret img{
+    animation: down 2.5s linear;
+}
+
+.hero-ret h2, 
+.hero-ret p {
+    animation: slide 2.5s linear;
+}
+
+.hero-ret button {
+    animation: slide-more 2.5s linear;
+}
+
+/* STILE ANIMAZIONI */
+@keyframes opacity {
+    
+    from {
+        opacity: 0.6;
+    }
+
+    to {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes down {
+    
+    from {
+        transform: translate(0, -200%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes slide {
+
+    from {
+        transform: translate(-120%, 0);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+ 
+}
+
+@keyframes slide-more {
+
+    from {
+        transform: translate(-220%, 0);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+ 
+}
+

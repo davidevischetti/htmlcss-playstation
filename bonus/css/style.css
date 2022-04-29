@@ -1,0 +1,396 @@
+/* STILE GENERALE E TESTI*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 24px;
+}
+
+p{
+    color: #fff;
+    font-size: 14px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text div {
+    font-size: 20px;
+}
+
+.button {
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+
+/* STILE HEADER */
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 999;
+}
+
+#header .sony-logo {
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#header nav {
+    margin-top: 35px;
+}
+
+#header .lg-display-none {
+    background-image: url(../img/lens.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: center;
+    padding-left: 30px;
+}
+
+#header .fa-search {
+    color: #363636;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+#header .button {
+    background-color: #363636;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 20px 0;
+}
+
+
+/* PADDING MAIN PER HEADER IN FIXED */
+
+main {
+    padding-top: 100px;
+}
+
+
+/* STILE HERO E HERO 2*/
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero.hero-ret {
+    background-image: url(../img/jumbo-bg.png);
+    animation: opacity 2s linear;
+}
+
+.hero.hero-itt {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.hero img {
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.hero-ret img{
+    margin-top: 250px;
+    animation: down 2s linear;
+}
+
+.hero-itt img{
+    margin-top: 50px;
+}
+
+.hero p {
+    margin: 40px 0;
+}
+
+.hero .button {
+    background-color: #cd3d0f;
+}
+
+
+/* STILE PREVIEWS */
+
+#previews img {
+    max-width: 100%;
+    margin: 30px 0;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+
+/* STILE ECCO PS5, ESPLORA PS4 E SCONTI STORE */
+
+.ps-info .text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ps-info .text a {
+    text-decoration: none;
+    color: #0070d1;
+}
+
+.ps-info .text h2 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.ps-info .text div {
+    color: #6a6a6a;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ps-info .text .button {
+    background-color: #0070d1;
+    margin-bottom: 50px;
+}
+
+.ps-info img {
+    max-width: 100%;
+    margin-bottom: 30PX;
+}
+
+
+/* STILE LISTA PRODOTI */
+
+.ps-info .item {
+    text-align: center;
+    min-height: 160px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.ps-info .item img {
+    max-width: 100%;
+    margin-bottom: 10PX;
+}
+
+.ps-info .item span {
+    display: none;
+}
+
+.ps-info .fa-trademark {
+    color: #6a6a6a;
+    font-size: 10px;
+    transform: translate(0, -50%);
+} 
+
+.ps-info .fa-registered {
+    font-size: 15px;
+    transform: translate(0, -100%);
+}
+
+
+/* STILE NUOVE USCITE */
+
+#news {
+    background-color: #1f1f1f;
+    padding-bottom: 50px;
+}
+
+#news img {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+#news span {
+    color: #fff;
+}
+
+
+/* STILE BANNER PS-PLUS E BANNER PS-NOW */
+
+.banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.banner.banner-ps-plus {
+    background-color: #bebcbb;
+}
+
+.banner.banner-ps-now {
+    background-color: #161c3b;
+}
+
+.banner .banner-logo {
+    max-width: 60%;
+}
+
+.banner-bg {
+    max-width: 100%;
+    display: none;
+}
+
+.banner p {
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.banner.banner-ps-plus p {
+    color: #2b2b2b;
+}
+
+.banner.banner-ps-now p {
+    color: #fff;
+}
+
+.banner.banner-ps-plus .button {
+    background-color: #d9d9db;
+    color: #0070d1;
+}
+
+.banner.banner-ps-now .button {
+    background-color: #fff;
+    color: #363636;
+}
+
+/* STILE LINK SOCIAL */
+#social {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#social h3 {
+    color: #000;
+    text-align: center;
+}
+
+#social img {
+    max-width: 40%;
+    margin: 20px 10px;
+}
+
+/* STILE FOOTER */
+#footer {
+    background-color: #00439c;
+    padding: 50px 0;
+}
+
+#footer .ps-logo {
+    height: 80px;
+}
+
+#footer .region {
+    height: 20px;
+}
+
+#footer .sie-logo {
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#footer span {
+    color: #fff;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 40px 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer ul li {
+    margin-bottom: 5px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
+#footer p a {
+    color: #fff;
+}
+
+
+/* REGOLE PER RESPONSIVE */
+
+@media screen and (min-width:768px){
+
+    .ps-info .item img {
+        max-width: 50%;
+    }
+
+    .ps-info .item span {
+        display: block;
+    }
+
+    .banner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .banner-bg {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:992px){
+
+    #header .lg-display-none {
+        display: none;
+    }
+
+    #header .fa-search {
+        display: inline-block;
+    }
+    
+    #header .button {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 20px;
+        
+    }
+}
+
+@media screen and (min-width:576px) {
+
+    #social img {
+        max-width: 100px;
+    }
+}
