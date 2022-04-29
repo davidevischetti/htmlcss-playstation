@@ -1,4 +1,3 @@
-
 /* STILE EFFETTI HOVER */
 
 #previews img:hover {
@@ -9,6 +8,7 @@
     cursor: pointer;
     transition: all 0.5s;
 }
+
 
 .ps-info .item:hover {
     border-bottom: 3px solid #0070d1;
@@ -25,6 +25,27 @@
     box-shadow: 4px 12px 12px -4px rgba(200, 200, 200, 0.5);
 }
 
+
+/* EFFETTI HOVER BACKGROUND HERO */
+#rt:hover + .hero-rt {
+    display: block;
+}
+
+#sp:hover + .hero-sp {
+    display: block;
+}
+
+#ac:hover + .hero-ac {
+    display: block;
+}
+
+#gow:hover + .hero-gow {
+    display: block;
+}
+
+#wz:hover + .hero-wz {
+    display: block;
+}
 
 /* SETTAGGI AIMAZIONI */
 

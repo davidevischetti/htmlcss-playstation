@@ -94,6 +94,7 @@ span {
 
 main {
     padding-top: 100px;
+    position: relative;
 }
 
 
@@ -101,14 +102,47 @@ main {
 
 .hero {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-position: center;
 }
 
 .hero.hero-ret {
     background-image: url(../img/jumbo-bg.png);
-    animation: opacity 2s linear;
+    position: relative;
+    background-position-y: top;
+}
+
+.hero-special {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+    background-position-y: top;
+}
+
+.hero-rt {
+    background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+}
+
+.hero-sp {
+    background-image: url(https://images.everyeye.it/img-video/marvel-s-spider-man-incontra-way-home-28587-640x360.webp);
+}
+
+.hero-ac {
+    background-image: url(https://sm.ign.com/t/ign_it/screenshot/default/maxresdefault_phs9.1280.jpg);
+}
+
+.hero-gow {
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1593500/capsule_616x353.jpg?t=1650554420);
+}
+
+.hero-wz {
+    background-image: url(https://www.videogiochi.com/wp-content/uploads/2022/04/warzone-king-kong-godzilla-season-3-28042022-videogiochi.com_.jpg);
+}
+
+.hero-special .button {
+ margin-top: 417px;
 }
 
 .hero.hero-itt {
@@ -120,9 +154,8 @@ main {
     margin-bottom: 40px;
 }
 
-.hero-ret img{
-    margin-top: 250px;
-    animation: down 2s linear;
+.hero-ret img {
+    margin-top: 150px;
 }
 
 .hero-itt img{
@@ -216,8 +249,9 @@ main {
 /* STILE NUOVE USCITE */
 
 #news {
-    background-color: #1f1f1f;
+    background-color: #0070d1;
     padding-bottom: 50px;
+    margin-top: 100px;
 }
 
 #news img {
@@ -229,6 +263,12 @@ main {
 
 #news span {
     color: #fff;
+    font-size: 15px;
+}
+
+#news .fa-trademark {
+    font-size: 10px;
+    transform: translate(0, -50%);
 }
 
 

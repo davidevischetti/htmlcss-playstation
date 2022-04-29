@@ -227,7 +227,14 @@ main {
 
 #news span {
     color: #fff;
+    font-size: 15px;
 }
+
+#news .fa-trademark {
+    font-size: 10px;
+    transform: translate(0, -50%);
+}
+
 
 
 /* STILE BANNER PS-PLUS E BANNER PS-NOW */
